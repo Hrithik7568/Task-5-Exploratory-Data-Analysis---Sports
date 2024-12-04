@@ -10,3 +10,5 @@ llm = ChatGoogleGenerativeAI(model="gemini-pro",  google_api_key=os.getenv("GOOG
 
 response = llm.invoke("Who is mahatma gandhi")
 print(response.content)
+
+GOOGLE_API_KEY=AIzaSyDOfxtCTumYVy5GOzunzUieeyXn8r_5zLA
